@@ -25,7 +25,7 @@ public class BankingApplication {
     // deposit
     void deposit(int amount)
     {
-        if (balance !=0)
+        if (amount !=0)
         {
             balance = balance + amount;
             previousTransaction = balance;
@@ -34,7 +34,7 @@ public class BankingApplication {
         //withdraw
         void withdraw(int amount)
         {
-            if (balance!=0);
+            if (amount !=0);
             {
                 balance = balance - amount;
                 previousTransaction = -balance;
@@ -83,7 +83,7 @@ public class BankingApplication {
                     {
                         case 'A':
                             System.out.println("--------------------------");
-                            System.out.println("balance"  +balance);
+                            System.out.println("balance:  "+balance);
                             System.out.println("--------------------------");
                             System.out.println("\n");
                             break;
